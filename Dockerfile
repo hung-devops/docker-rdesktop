@@ -22,6 +22,7 @@ RUN \
     xfce4 \
     xfce4-pulseaudio-plugin \
     xfce4-terminal && \
+    remmina && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   rm -f \

@@ -21,9 +21,11 @@ RUN \
     util-linux-misc \
     xfce4 \
     xfce4-pulseaudio-plugin \
-    xfce4-terminal && \
+    xfce4-terminal \
+    net-tools \
+    lsof \
+    curl \
     remmina && \
-  printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   rm -f \
     /etc/xdg/autostart/xfce4-power-manager.desktop \
